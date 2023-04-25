@@ -186,6 +186,7 @@ const CatalogPreviewWrapper = styled.section`
           position: absolute;
           margin: 0 auto;
           left: 50%;
+          color: black;
           transform: translateX(-50%);
           padding: 1rem 3rem;
           border: none;
@@ -225,7 +226,7 @@ const CatalogPreviewWrapper = styled.section`
     }
   }
 
-  @media (width <= 31.25em) {
+  @media (max-width: 31.25em) {
     .catalogpreview__container {
       flex-direction: column;
     }

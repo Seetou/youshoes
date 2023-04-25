@@ -248,7 +248,7 @@ const CartWrapper = styled.div`
     }
   }
 
-  @media (width <= 31.25em) {
+  @media (max-width: 31.25em) {
     right: 0%;
     width: 100%;
   }
