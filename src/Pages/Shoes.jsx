@@ -154,6 +154,7 @@ export default Shoes;
 
 const ShoesWrapper = styled(motion.section)`
   width: 100vw;
+  max-width: 100%;
   margin-top: 2rem;
 
   .shoes__container {

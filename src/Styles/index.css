@@ -21,7 +21,8 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: var(--font-family);
-  max-width: 1200px;
+  /* max-width: 1200px;
+  margin: 0 auto; */
   color: var(--header-black-clr);
   scroll-behavior: smooth;
 }

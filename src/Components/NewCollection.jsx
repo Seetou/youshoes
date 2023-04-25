@@ -57,6 +57,7 @@ export default NewCollection;
 
 const NewCollectionWrapper = styled.section`
   width: 100vw;
+  max-width: 100%;
   padding-top: 6rem;
 
   .section__title {

@@ -18,6 +18,7 @@ export default Footer;
 
 const FooterWrapper = styled.footer`
   width: 100vw;
+  max-width: 100%;
   background: var(--header-black-clr);
   padding: 20rem 1rem;
 
