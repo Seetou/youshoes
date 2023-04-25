@@ -129,7 +129,7 @@ const HeaderWrapper = styled.header`
 
   /* >1200PX */
 
-  @media (width > 75em) {
+  @media (min-width: 75em) {
     height: 100%;
 
     .header__flexbox {
@@ -157,7 +157,7 @@ const HeaderWrapper = styled.header`
 
   /* 800PX to 1200PX */
 
-  @media (50em <= width <= 75em) {
+  @media (min-width: 50em) {
     /* background: lightcoral; */
     height: 100%;
 
@@ -207,7 +207,7 @@ const HeaderWrapper = styled.header`
 
   /* < 800PX */
 
-  @media (width < 50em) {
+  @media (max-width: 49.938em) {
     height: 100%;
     .header__flexbox {
       display: flex;
@@ -254,7 +254,7 @@ const HeaderWrapper = styled.header`
   }
 
   /* <= 500PX */
-  @media (width <= 31.25em) {
+  @media (max-width: 31.25em) {
     height: 100%;
     .header__flexbox {
       display: flex;

@@ -126,7 +126,7 @@ const NewCollectionWrapper = styled.section`
     }
   }
 
-  @media (width <= 75em) {
+  @media (max-width: 75em) {
     .newCollection__container {
       display: flex;
       flex-direction: column;
@@ -135,7 +135,7 @@ const NewCollectionWrapper = styled.section`
     }
   }
 
-  @media (width <= 37.5em) {
+  @media (max-width: 37.5em) {
     .newCollection__container {
       display: flex;
       flex-direction: column;
@@ -160,7 +160,7 @@ const NewCollectionWrapper = styled.section`
     }
   }
 
-  @media (width <= 31.25em) {
+  @media (max-width: 31.25em) {
     .newCollection__container {
       display: flex;
       flex-direction: column;

@@ -380,7 +380,7 @@ const ProductWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 75em) {
+  @media (max-width: 75em) {
     .productDetails__container {
       .productDetails-content {
         .product__item {
@@ -395,7 +395,7 @@ const ProductWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 31.25em) {
+  @media (max-width: 31.25em) {
     .productDetails__container {
       .productDetails-content {
         .shipping-details-container {

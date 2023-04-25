@@ -277,7 +277,7 @@ const ClothesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width <= 75em) {
+  @media (max-width: 75em) {
     .clothes__container {
       .clothes__header {
         .clothes__header_info {
@@ -323,7 +323,7 @@ const ClothesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 50em) {
+  @media (max-width: 50em) {
     .clothes__container {
       width: 95%;
       .clothes__header {
@@ -390,7 +390,7 @@ const ClothesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 37.5em) {
+  @media (max-width: 37.5em) {
     .clothes__container {
       .clothes__header {
         .clothes__header_info {

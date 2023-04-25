@@ -252,7 +252,7 @@ const ShoesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width > 75em) {
+  @media (min-width: 75em) {
     .shoes__container {
       .shoes__header {
         .shoes__header_info {
@@ -275,7 +275,7 @@ const ShoesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width <= 75em) {
+  @media (max-width: 74.938em) {
     .shoes__container {
       .shoes__header {
         .shoes__header_info {
@@ -321,7 +321,7 @@ const ShoesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 50em) {
+  @media (max-width: 50em) {
     .shoes__container {
       width: 95%;
       .shoes__header {
@@ -388,7 +388,7 @@ const ShoesWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 37.5em) {
+  @media (max-width: 37.5em) {
     .shoes__container {
       .shoes__header {
         .shoes__header_info {

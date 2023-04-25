@@ -57,7 +57,7 @@ const Page404Wrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 31.25em) {
+  @media (max-width: 31.25em) {
     .pagenotfound-container {
       h1 {
         font-size: 2rem;
