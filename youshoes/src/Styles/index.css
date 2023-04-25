@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --header-clr: #f7f7f7;
+  --header-black-clr: #121212;
+  --primary-clr: #f4a261;
+  --secondary-clr: #e76f51;
+  --accent-clr: #e9c46a;
+  --font-clr: #264653;
+}
+
+body {
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: var(--font-family);
+  max-width: 1200px;
+  color: var(--header-black-clr);
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: var(--header-black-clr);
+  background: var(--primary-clr);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-header {
+  margin-top: 4rem;
+  padding: 1rem 3rem;
+}
+
+.btn:hover {
+  color: var(--header-clr);
+  background: var(--secondary-clr);
+  transform: translateY(-5px);
+}
