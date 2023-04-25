@@ -213,7 +213,7 @@ const FilterAsideWrapper = styled.aside`
     }
   }
 
-  @media (width < 75em) {
+  @media (max-width: 75em) {
     width: 100%;
 
     .filters-options-price-range-container {
