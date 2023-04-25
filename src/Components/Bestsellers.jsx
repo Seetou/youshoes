@@ -93,6 +93,7 @@ export default Bestsellers;
 
 const BestsellersWrapper = styled.section`
   width: 100vw;
+  max-width: 100%;
   padding-top: 2rem;
 
   .section__title {

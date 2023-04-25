@@ -159,6 +159,7 @@ export default Clothes;
 
 const ClothesWrapper = styled(motion.section)`
   width: 100vw;
+  max-width: 100%;
   margin-top: 2rem;
 
   .clothes__container {

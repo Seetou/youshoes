@@ -39,6 +39,7 @@ export default HeroSpirit;
 
 const HeroSpiritWrapper = styled.section`
   width: 100vw;
+  max-width: 100%;
   padding: 6rem 0;
   background: var(--header-clr);
 
