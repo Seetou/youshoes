@@ -152,6 +152,7 @@ export default Contact;
 
 const ContactWrapper = styled(motion.section)`
   width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
   padding-top: 5rem;
 

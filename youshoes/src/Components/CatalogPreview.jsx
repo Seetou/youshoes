@@ -125,6 +125,7 @@ export default CatalogPreview;
 
 const CatalogPreviewWrapper = styled.section`
   width: 100vw;
+  max-width: 100%;
   padding-top: 2rem;
   padding-bottom: 4rem;
 

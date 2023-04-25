@@ -65,6 +65,7 @@ export default Navigation;
 
 const NavigationWrapper = styled.nav`
   width: 100vw;
+  max-width: 100%;
   padding: 2rem 0;
   background: var(--header-black-clr);
 

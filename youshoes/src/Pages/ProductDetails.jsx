@@ -198,7 +198,7 @@ export default ProductDetails;
 
 const ProductWrapper = styled(motion.section)`
   width: 100vw;
-
+  max-width: 100%;
   .productDetails__container {
     width: 80%;
     margin: 5rem auto;

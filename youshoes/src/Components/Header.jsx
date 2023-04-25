@@ -45,9 +45,10 @@ export default Header;
 
 const HeaderWrapper = styled.header`
   width: 100vw;
+  max-width: 100%;
   background: var(--header-black-clr);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 
@@ -157,7 +158,7 @@ const HeaderWrapper = styled.header`
 
   /* 800PX to 1200PX */
 
-  @media (min-width: 50em) {
+  @media (min-width: 50em) and (max-width: 74.938em) {
     /* background: lightcoral; */
     height: 100%;
 

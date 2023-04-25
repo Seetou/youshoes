@@ -67,6 +67,7 @@ export default About;
 
 const AboutWrapper = styled(motion.section)`
   width: 100vw;
+  max-width: 100%;
   margin-top: 5rem;
   margin-bottom: 15rem;
 

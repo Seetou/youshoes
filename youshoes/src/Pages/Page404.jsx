@@ -24,6 +24,7 @@ export default Page404;
 
 const Page404Wrapper = styled(motion.section)`
   width: 100vw;
+  max-width: 100%;
 
   .pagenotfound-container {
     width: 100%;
