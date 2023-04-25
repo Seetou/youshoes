@@ -140,8 +140,9 @@ const AboutWrapper = styled(motion.section)`
       }
     }
   }
+  /* @media (62.5 <= width <= 75em)  */
 
-  @media (62.5 <= width <= 75em) {
+  @media (max-width: 75em) {
     .about__container {
       .about-header {
         width: 100%;
@@ -161,7 +162,7 @@ const AboutWrapper = styled(motion.section)`
     }
   }
 
-  @media (width < 62.5em) {
+  @media (max-width: 62.5em) {
     .about__container {
       .about-header {
         width: 100%;

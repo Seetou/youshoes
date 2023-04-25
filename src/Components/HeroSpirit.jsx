@@ -98,13 +98,13 @@ const HeroSpiritWrapper = styled.section`
     }
   }
 
-  @media (width <= 75em) {
+  @media (max-width: 75em) {
     .section__title {
       font-size: 2.5rem;
     }
   }
 
-  @media (width < 50em) {
+  @media (max-width: 50em) {
     .section__title {
       font-size: 2.5rem;
     }
