@@ -8,11 +8,11 @@ const Footer = () => {
         <p>
           Disclaimer : This site has no commercial purpose and is not affiliated
           with any brand.
-          <span>
-            Please note: This site uses an editable public API. Therefore, it is
-            possible that some products do not appear on the page. Normally,
-            there are 39 shoes and 42 clothes.
-          </span>
+        </p>
+        <p>
+          Please note: This site uses an editable public API. Therefore, it is
+          possible that some products do not appear on the page. Normally, there
+          are 39 shoes and 42 clothes.
         </p>
       </div>
     </FooterWrapper>
